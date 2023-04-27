@@ -8,6 +8,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import openpyxl
 
+# 1. You must drag and drop the CSV file onto this py file.
+# 2. This script will open a browser in chrome and search for the licenses.
+# 3. The output will be a xlsx file created in the same location as the py file.
+
 # Get the path of the script
 script_path = Path(sys.argv[0]).resolve().parent
 
